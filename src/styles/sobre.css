@@ -1,0 +1,29 @@
+#sobreTittle {
+  text-align: center;
+}
+
+#sobreTittle p {
+  font-size: 50px;
+  margin: 0;
+}
+
+#QAbox p {
+  font-size: 25px;
+}
+
+#my-gif {
+  width: 30%;
+  float: right;
+}
+
+#my-gif img {
+  width: 100%;
+  border-color: white;
+  border-style: double;
+  border-radius: 20px;
+}
+
+#my-gif figcaption {
+  font-size: 20px;
+  float: right;
+}

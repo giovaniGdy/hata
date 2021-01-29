@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import NavBar from "../../components/navbar/navbar";
 
@@ -14,14 +13,19 @@ export default class Home extends React.Component {
             <NavBar />
           </nav>
         </header>
-        <div className="imgDiv">
-          <img src={LoadingInfo} width="50%" />
-        </div>
-        <div>
-          <a href="../sobre/teste.js">Testando React :D</a>
-          <p>
-            <Link to="/sobre">aqui</Link>
-          </p>
+        <div className="sub-body">
+          <div className="imgDiv">
+            <img
+              id="loading-banner"
+              src={LoadingInfo}
+              width="50%"
+              alt="Loading Word Banner"
+            />
+          </div>
+          <div>
+            <p>Olá, bem vindo :)</p>
+            <p>Hello and Welcome :)</p>
+          </div>
         </div>
       </body>
     );
