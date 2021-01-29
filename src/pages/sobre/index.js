@@ -3,9 +3,6 @@ import React from "react";
 import NavBar from "../../components/navbar/navbar";
 import myGif from "../../assets/images/my-image.gif";
 
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 export default class Home extends React.Component {  
   render() {
     return (

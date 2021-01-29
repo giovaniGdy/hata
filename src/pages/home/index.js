@@ -1,7 +1,6 @@
 import React from "react";
 
 import NavBar from "../../components/navbar/navbar";
-
 import LoadingInfo from "../../assets/images/loading.gif";
 
 export default class Home extends React.Component {
