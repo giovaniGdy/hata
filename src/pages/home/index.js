@@ -25,7 +25,7 @@ export default class Home extends React.Component {
             <h1>UPDATE NOTES</h1>
             <div class="notes-info">
               <h2>DD/MM/YY</h2>
-              <p>08/02/2021 - 12:50 | > Deploy</p>
+              <p>08/02/2021 - 12:50 | ⟫ Deploy</p>
               <p>08/02/2021 - 12:50 | + Adaptação CSS + Update Notes session </p>
               <p>08/02/2021 - 11:00 | + Hidden Navbar </p>
               <p>08/02/2021 - 10:00 | + Responsividade para aparelhos mobile</p>
