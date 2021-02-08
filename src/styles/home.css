@@ -1,23 +1,12 @@
-body {
-  height: 100%;
+.sub-body {
   width: 100%;
-  padding: 0px;
-  margin: 0px;
-  background-attachment: fixed;
-  background-image: url("../assets/images/body-wallpaper.png");
+  margin: auto;
+  text-align: center;
 }
 
 .imgDiv {
   width: 100%;
-  text-align: center;
-}
-
-.sub-body {
-  margin: 2% 12% 0% 12%;
-}
-
-p {
-  color: white;
+  margin: auto;
 }
 
 #loading-banner {
@@ -26,4 +15,30 @@ p {
   border-style: solid;
   border-width: 5px;
   border-color: darkred;
+}
+
+.notes {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.notes h1 {
+  font-size: 30px;
+  color: white;
+  border-top: 2px solid white;  
+}
+
+.notes-info {
+  text-align: left;
+}
+
+.notes-info h2 {
+  color: #ff4646;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.notes-info p {
+  font-size: 20px;
 }
