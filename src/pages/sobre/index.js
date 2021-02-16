@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavBar from "../../components/navbar/navbar";
+import NavbarSelector from "../../components/navbar/navbar-selector";
 import myGif from "../../assets/images/my-image.gif";
 
 export default class Home extends React.Component {
@@ -9,15 +9,14 @@ export default class Home extends React.Component {
       <body>
         <header>
           <nav>
-            <NavBar />
+            <NavbarSelector />
           </nav>
         </header>
         <div className="sub-body">
-          <div id="sobreTittle">
-            <p>SOBRE</p>
-            <hr />
-          </div>
+          <div id="sobreTittle"></div>
           <div class="QAbox">
+            <h1>SOBRE</h1>
+            <hr />
             <p>
               Olá, este é um site que criei para aperfeiçoar meus conhecimentos
               em front-end e React.js aqui quero compartilhar informações,

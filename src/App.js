@@ -6,6 +6,7 @@ import "./styles/global-style.css";
 import "./styles/home.css";
 import "./styles/navbar.css";
 import "./styles/sobre.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   useEffect(() => {

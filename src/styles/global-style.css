@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-family: sans-serif;
 }
 
 body {
@@ -9,6 +10,12 @@ body {
   margin: 0px;
   background-attachment: fixed;
   background-image: url("../assets/images/body-wallpaper.png");
+}
+
+.sub-body {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 p {

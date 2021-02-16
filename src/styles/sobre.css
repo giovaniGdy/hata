@@ -1,14 +1,13 @@
-#sobreTittle {
+.QAbox h1 {
   text-align: center;
-}
-
-#sobreTittle p {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
+  color: white;
 }
 
 .QAbox p {
   font-size: 25px;
+  text-align: left;
 }
 
 .my-gif {
