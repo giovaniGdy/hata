@@ -1,7 +1,8 @@
 import React from "react";
 
-import NavbarSelector from "../../components/navbar/navbar-selector";
+import Navbar from "../../components/navbar/navbar";
 import myGif from "../../assets/images/my-image.gif";
+import siteURLimg from "../../assets/images/hatakasy.gif";
 
 export default class Home extends React.Component {
   render() {
@@ -9,24 +10,30 @@ export default class Home extends React.Component {
       <body>
         <header>
           <nav>
-            <NavbarSelector />
+            <Navbar />
           </nav>
         </header>
         <div className="sub-body">
-          <div id="sobreTittle"></div>
+          <figure className="siteURLfig">
+            <img src={siteURLimg} alt="HATAKASY.COM.BR" />
+          </figure>
           <div class="QAbox">
-            <h1>SOBRE</h1>
-            <hr />
             <p>
-              Olá, este é um site que criei para aperfeiçoar meus conhecimentos
-              em front-end e React.js aqui quero compartilhar informações,
-              tutoriais, dicas e coisas sobre mim.
+              Hatakasy.com.br é um projeto para aperfeiçoar meus conhecimentos
+              em front-end e React.js.
             </p>
             <hr />
             <figure class="my-gif">
               <img src={myGif} alt="Scary Smile Gif" />
               <figcaption>Gif do meu avatar.</figcaption>
             </figure>
+            <p>
+              Sou intusiasta de técnologia, principalmente na área de computação
+              e smartphones gosto de assistir vídeos de reviews, manutenção e
+              novidades nessas áreas pra saber o que há de novo e como estão as
+              coisas no meio.
+            </p>
+            <hr />
             <p>
               Sou formado em Análise e Desenvolvimento de Sistemas com foco em
               desenvolvimento web front-end, não que eu não goste do back-end,
@@ -38,20 +45,15 @@ export default class Home extends React.Component {
               front a reação da maioria é a mesma: "Noooosssa não suporto
               front-end, ta loco", será que só existe dev backend nesse mundo?
             </p>
+            <hr />
             <p>
               Atualmente passo a maior parte do tempo fazendo as coisas que
               gosto: <br />
               Jogar video games, assistir alguns vídeos, filmes, arranhar umas
-              musicas no violão e também, infelizmente, fazer as tarefas diárias
-              em casa, também tiro um tempo da minha semana para mexer no site
-              aqui e fazer cursos da minha área.
-            </p>
-            <hr />
-            <p>
-              Sou intusiasta de técnologia, principalmente na área de computação
-              e smartphones gosto de assistir vídeos de reviews, manutenção e
-              novidades nessas áreas pra saber o que há de novo e como estão as
-              coisas no meio.
+              musicas no violão e também fazer as tarefas diárias em casa,
+              também tiro um tempo da minha semana para mexer no site aqui
+              (quando consigo) e fazer cursos da minha área algumas horas por
+              dia.
             </p>
           </div>
         </div>

@@ -1,6 +1,5 @@
 .imgDiv {
   width: 100%;
-  margin: auto;
 }
 
 #loading-banner {
@@ -8,7 +7,6 @@
   border-radius: 10px;
   border-style: solid;
   border-width: 5px;
-  border-color: darkred;
 }
 
 .notes {

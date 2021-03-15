@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavbarSelector from "../../components/navbar/navbar-selector";
+import Navbar from "../../components/navbar/navbar";
 
 export default class Home extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class Home extends React.Component {
       <body>
         <header>
           <nav>
-            <NavbarSelector />
+            <Navbar />
           </nav>
         </header>
         <div className="sub-body">

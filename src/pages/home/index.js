@@ -2,7 +2,7 @@ import React from "react";
 
 import LoadingInfo from "../../assets/images/loading.gif";
 
-import NavbarSelector from "../../components/navbar/navbar-selector";
+import Navbar from "../../components/navbar/navbar";
 
 export default class Home extends React.Component {
   render() {
@@ -10,10 +10,10 @@ export default class Home extends React.Component {
       <body>
         <header>
           <nav>
-            <NavbarSelector />
+            <Navbar />
           </nav>
         </header>
-        <div className="sub-body">
+        <div class="sub-body">
           <div className="imgDiv">
             <img
               id="loading-banner"
@@ -26,6 +26,9 @@ export default class Home extends React.Component {
             <h1>UPDATE NOTES</h1>
             <h2>DD/MM/YY</h2>
             <div class="notes-info">
+              <p>15/03/2021 - 12:50 | ⟫ Deploy</p>              
+              <p>15/03/2021 - 12:44 | + Novo Layout em /SOBRE</p>
+              <p>15/03/2021 - 12:26 | + Bug Fix Navbar</p>
               <p>08/02/2021 - 21:25 | ⟫ Deploy</p>
               <p>15/02/2021 - 21:20 | + Navbar Mobile</p>
               <p>15/02/2021 - 15:15 | + Scroll Bar em Update Notes</p>
