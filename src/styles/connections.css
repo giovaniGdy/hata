@@ -1,0 +1,35 @@
+.connections-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkBox {
+  background-color: dimgrey;
+  height: 100px;
+  padding: 10px;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: solid 2px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.linkBox:hover {
+  cursor: pointer;
+  background-color: white;
+  border-color: #064268;
+  transition: 1s;
+}
+
+.linkBox img {
+  height: 80%;
+  margin: 10px;
+  float: left;
+}
+
+.linkBox h1 {
+  margin: 30px;
+}
